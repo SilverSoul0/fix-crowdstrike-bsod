@@ -12,6 +12,11 @@ contains a lot of `NUL` bytes (`0x00`). This update caused
 the Windows Kernel to be stuck in a boot loop because it crashes
 and reboots.
 
+CrowdStrike Statement:
+
+- [Official Website](https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/)
+- [Web Archive](http://web.archive.org/web/20240720004839/https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/)
+
 
 # Solution
 
