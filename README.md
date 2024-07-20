@@ -7,10 +7,12 @@ also known as the Crowdstrike Boot Loop Screen.
 
 # Cause
 
-On 2024-07-18, CrowdStrike deployed a defective update which
-contains a lot of `NUL` bytes (`0x00`). This update caused
-the Windows Kernel to be stuck in a boot loop because it crashes
-and reboots.
+On 2024-07-18, CrowdStrike deployed a defective update which caused
+a defective channel file to be created in its drivers folder.
+
+This defective channel could not be created successfully, and the
+resulting named pipe which was used to observe IPC communication
+cause the Windows Kernel to be stuck in a boot loop.
 
 CrowdStrike Statement:
 
