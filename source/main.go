@@ -143,7 +143,4 @@ func main() {
 
 	}
 
-	// 	showUsage()
-	// 	os.Exit(1)
-
 }
